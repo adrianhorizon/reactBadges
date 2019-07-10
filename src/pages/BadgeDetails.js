@@ -5,25 +5,8 @@ import './styles/BadgeDetails.css';
 import confLogo from '../images/platziconf-logo.svg';
 import Badge from '../components/Badge';
 import DeleteBadgeModal from '../components/DeleteBadgeModal';
-<<<<<<< HEAD
 
 function BadgeDetails(props) {
-=======
-
-function useIncreaseCount(max) {
-  const [count, setCount] = React.useState(0);
-
-  if (count > max) {
-    setCount(0);
-  }
-
-  return [count, setCount];
-}
-
-function BadgeDetails(props) {
-  const [count, setCount] = useIncreaseCount(4);
-
->>>>>>> af177f78e3642d63c62614e5a3da34e50cbb189d
   const badge = props.badge;
 
   return (
